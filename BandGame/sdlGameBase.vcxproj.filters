@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameSkip.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseWindow.cpp">
+      <Filter>MainBase</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>MainBase</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>MainBase</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL_Button.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InputHandler.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameSkip.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseWindow.h">
+      <Filter>MainBase</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>MainBase</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL_Button.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Input">
+      <UniqueIdentifier>{70c24bb1-7801-4ac5-8111-03ef0e12071f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{3f607a4d-a973-4c43-8943-0b4347eedf76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{6f7e8ec5-a7e0-4eea-a436-4754ea9eb9fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainBase">
+      <UniqueIdentifier>{97b218c7-73e8-4977-a5c0-b69e59cba111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{44e48f2a-ea2a-46d7-a9f2-b914e29ab47b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{bc57ec29-7f3f-4cb5-abe3-1aeba1115f71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{7c325e26-ceca-4a04-8666-56f7ad8b6c30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
